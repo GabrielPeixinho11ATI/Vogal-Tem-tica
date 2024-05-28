@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corrida da Vogal Temática</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body> 
+    <div class="vehicle-selection-container">
+        <div class="vehicle-selection">
+            <h2 class="choose-vehicle">Escolha seu veículo:</h2>
+            <div class="vehicle-options">
+                <button onclick="selectVehicle('https://images.tcdn.com.br/img/img_prod/1185103/carro_carrinho_controle_remoto_barato_modelo_sport_corrida_brinquedo_anda_para_tras_e_para_frente_ca_71_3_87172f396bc99ccf6e75664ff3b3a225.jpeg')">Carro 1</button>
+                <button onclick="selectVehicle('https://pngimg.com/uploads/camaro/camaro_PNG29.png')">Carro 2</button>
+            </div>
+            <div class="game-info">
+                <p>Neste jogo você tem como objetivo encontrar a vogal temática da palavra antes que o tempo se acabe! Lembre-se, apenas a última vogal da palavra. <span class="good-luck">Boa sorte!</span></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" style="display: none;">
+        <h1>Corrida da Vogal Temática</h1>
+        <div class="track" id="track">
+            <div class="player" id="player1"></div>
+        </div>
+        <div id="word" class="answer">cantar</div>
+        <div id="options" style="display: none;"></div>
+        <button class="start-button" onclick="startGame()">Iniciar Jogo</button>
+    </div>
+    <div class="timer-container" style="display: none;">
+        <div id="timer">Tempo: 30s</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

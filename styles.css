@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #262e38;
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.track {
+    position: relative;
+    width: 600px;
+    height: 220px; /* Altura ajustada para o tamanho do jogador */
+    background-image: url('https://img.freepik.com/vetores-premium/pista-de-corrida-com-linha-de-largada-e-chegada-para-carro-corridas-de-carting-na-estrada-de-asfalto-modelo-de-pista-rapida-conceito-de-esporte-auto-e-moto-vista-do-topo_168129-872.jpg?w=1380'); /* Substitua 'URL_DA_SUA_IMAGEM' pela URL da sua imagem */
+    background-size: cover;
+    margin: 0 auto;
+}
+
+
+.player {
+    width: 100px;
+    height: 90px; /* Altura ajustada para o tamanho do jogador */
+    background-image: url('https://images.tcdn.com.br/img/img_prod/1185103/carro_carrinho_controle_remoto_barato_modelo_sport_corrida_brinquedo_anda_para_tras_e_para_frente_ca_71_3_87172f396bc99ccf6e75664ff3b3a225.jpeg');
+    background-size: cover;
+    position: absolute;
+    left: calc(50% - 50px); /* Centraliza horizontalmente */
+    bottom: calc(50% - 45px); /* Centraliza verticalmente */
+}
+
+
+
+
+#player2 {
+    left: 0; /* Posiciona o segundo jogador à esquerda */
+}
+
+.timer-container {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: rgba(169, 169, 169, 0.5); /* Cinza com transparência */
+    padding: 20px; /* Maior padding */
+    border-radius: 10px;
+}
+
+#timer {
+    font-size: 80px; /* Tamanho maior */
+    color: black;
+}
+
+h1 {
+    color: white; /* Define a cor do texto como branco */
+}
+
+#options button {
+    color: black; /* Mantém a cor do texto das opções como preto */
+}
+
+.answer {
+    color: white; /* Define a cor da palavra de resposta como branco */
+}
+
+#word {
+    color: white; /* Define a cor do texto das constantes para branco */
+}
+
+.choose-vehicle {
+    color: white;
+    font-size: 24px; /* Ajusta o tamanho da fonte */
+}
+
+.game-info {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.good-luck {
+    border: 2px solid white;
+    padding: 3px 5px; /* Adiciona um pequeno espaço entre o texto e a borda */
+    border-radius: 50%;
+}
